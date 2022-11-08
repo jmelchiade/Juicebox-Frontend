@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { NavBar, Posts, Login, Profile, Register, Search, Tags } from "./";
 
 const Main = () => {
@@ -17,6 +17,7 @@ const Main = () => {
       userLogin();
     }
   }, []);
+  return <h1>this is Main</h1>;
 };
 
 export default Main;
